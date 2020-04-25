@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div class="form">
+
+        <h1> Meme Generator! </h1>
+        <p> Enter a link to the image you want to create and enter the text </p>
+
+        <form action="" id="form"> 
+      
+            <p>
+                <label for=""> Enter the Image URL:
+                    <input type="text" name="link">
+                    <!-- <input type="file" name="image"> -->
+                </label>
+            </p>
+      
+            <p>
+                <label for=""> Text:
+                    <input type="text" name="text">
+                </label>
+            </p>
+
+            <p>
+                <label for=""> Select font size:
+                    <input type="range" name="fontsize" min="10" max="50">
+                </label>
+            </p>
+
+            <p>
+                <label for=""> Select font color:
+                    <input type="color" name="color">
+                </label>
+            </p>
+            
+<!--        would like to  implement this feature later
+            <p>Select the text position:
+            <label><input type="radio" name="position" value="top" checked>Top</label>
+            <label><input type="radio" name="position" value="bottom">Bottom</label>
+            </p> -->
+
+
+
+
+
+
+            <input type="submit">
+        </form>
+
+    </div>
+    
+    <section class="results"> 
+ 
+
+
+    </section>
+
+
+
+</body>
+
+<script src="app.js"></script>
+</html>
